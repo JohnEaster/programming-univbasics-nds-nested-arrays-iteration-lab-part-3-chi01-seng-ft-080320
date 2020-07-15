@@ -12,9 +12,9 @@ while row_index < src.count do
     if scr[row_index][element_index].class == 
        clean_array << src[row_index][element_index]
     end
-  element_index += 1
+    element_index += 1
   end
-row_index += 1
+  row_index += 1
 end
 clean_array.join(" ")
 end
