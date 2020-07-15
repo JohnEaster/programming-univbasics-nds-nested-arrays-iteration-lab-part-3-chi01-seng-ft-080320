@@ -15,6 +15,7 @@ while row_index < src.count do
   clean_array << src[row_index][element_index]
   end
 row_index += 1
+end
 clean_array.join(" ")
 end
 
