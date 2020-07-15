@@ -16,8 +16,8 @@ while row_index < src.count do
   end
   row_index += 1
 end
+
 clean_array.join(" ")
-end
 
 
 
