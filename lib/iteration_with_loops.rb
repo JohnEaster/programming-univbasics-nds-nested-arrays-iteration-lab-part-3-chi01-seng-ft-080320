@@ -4,8 +4,9 @@ def join_nested_strings(src = [
   ["studied", 101, 233, "Ruby"]
 ])
 
-
-
+row_index = 0
+clean_array = []
+while row_index < src
 
 
   # src will be an Array of Arrays of Strings and Integers
